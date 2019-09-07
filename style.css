@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(./stage.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+.j1{
+  display: inline;
+  float: left;
+}
+
+.j2{
+  display: inline;
+  float: right;
+}
+
+
+.player1{
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.player2{
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#myBtn{
+  width: 60px;
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
+#myBtn2{
+  width: 60px;
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
+label{
+  font-size: 60px;
+  padding: 50px;
+}
